@@ -5,12 +5,7 @@ export function renderElement(renderer, props) {
     if (!props) return renderer;
     return React.cloneElement(renderer, props);
   } else if (typeof renderer === 'function') {
-    if (renderer.prototype && renderer.prototype.isReactComponent) {
-      return React.createElement(renderer, props);
-    } else if (renderer.defaultProps) {
-      return renderer({ ...renderer.defaultProps, ...props });
-    }
-    return renderer(props);
+    return React.createElement(renderer, props);
   } else {
     return null;
   }
