@@ -2,26 +2,26 @@
 
 BaseTable is a react table component to display large datasets with high performance and flexibility
 
-<a href="https://npm.im/react-base-table"><img src="https://badgen.net/npm/license/react-base-table"></a>
-<a href="https://npm.im/react-base-table"><img src="https://badgen.net/npm/v/react-base-table"></a>
-<a href="https://npm.im/react-base-table"><img src="https://badgen.net/npm/dm/react-base-table"></a>
-<a href="https://bundlephobia.com/result?p=react-base-table"><img src="https://badgen.net/bundlephobia/minzip/react-base-table"></a>
+<a href="https://npm.im/@sage-bionetworks/react-base-table"><img src="https://badgen.net/npm/license/@sage-bionetworks/react-base-table"></a>
+<a href="https://npm.im/@sage-bionetworks/react-base-table"><img src="https://badgen.net/npm/v/@sage-bionetworks/react-base-table"></a>
+<a href="https://npm.im/@sage-bionetworks/react-base-table"><img src="https://badgen.net/npm/dm/@sage-bionetworks/react-base-table"></a>
+<a href="https://bundlephobia.com/result?p=@sage-bionetworks/react-base-table"><img src="https://badgen.net/bundlephobia/minzip/@sage-bionetworks/react-base-table"></a>
 
 ## Install
 
 ```bash
 # npm
-npm install react-base-table --save
+npm install @sage-bionetworks/react-base-table --save
 
 # yarn
-yarn add react-base-table
+yarn add @sage-bionetworks/react-base-table
 ```
 
 ## Usage
 
 ```js
-import BaseTable, { Column } from 'react-base-table'
-import 'react-base-table/styles.css'
+import BaseTable, { Column } from '@sage-bionetworks/react-base-table'
+import '@sage-bionetworks/react-base-table/styles.css'
 // Important: if you fail to import react-base-table/styles.css then 
 // BaseTable will not render as advertised in the included examples.
 // For advanced styling see link below:
@@ -90,7 +90,7 @@ $column-padding: 7.5px;
 $show-frozen-rows-shadow: false;
 $show-frozen-columns-shadow: true;
 
-@import '~react-base-table/es/_BaseTable.scss';
+@import '~@sage-bionetworks/react-base-table/es/_BaseTable.scss';
 
 .#{$table-prefix} {
   &:not(.#{$table-prefix}--show-left-shadow) {
