@@ -1,7 +1,7 @@
 {
-  "name": "react-base-table",
-  "version": "1.12.0",
-  "description": "a react table component to display large data set with high performance and flexibility",
+  "name": "@sage-bionetworks/react-base-table",
+  "version": "1.12.1",
+  "description": "Sage Bionetworks fork of Autodesk/react-base-table",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "types/index.d.ts",
@@ -11,11 +11,11 @@
     "types/",
     "styles.css"
   ],
-  "author": "Neo Nie <nihgwu@live.com>",
+  "author": "Nick Grosenbacher <nick.grosenbacher@sagebase.org>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Autodesk/react-base-table.git"
+    "url": "https://github.com/Sage-Bionetworks/react-base-table.git"
   },
   "scripts": {
     "start": "cd website && npm start",
