@@ -1,6 +1,9 @@
 {
-  "extends": ["react-app", "plugin:prettier/recommended", "prettier"],
-  "plugins": ["prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "extends": ["plugin:react/recommended"],
   "rules": {
     "react/prop-types": 2
   }

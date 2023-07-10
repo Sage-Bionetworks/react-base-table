@@ -128,8 +128,7 @@ class GridTable extends React.PureComponent {
           hoveredRowKey={hoveredRowKey}
           onScroll={onScroll}
           onItemsRendered={this._handleItemsRendered}
-          children={this.renderRow}
-        />
+        >{this.renderRow}</Grid>
         {headerHeight + frozenRowsHeight > 0 && (
           // put header after body and reverse the display order via css
           // to prevent header's shadow being covered by body
