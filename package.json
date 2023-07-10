@@ -1,6 +1,6 @@
 {
   "name": "@sage-bionetworks/react-base-table",
-  "version": "1.13.2",
+  "version": "1.13.4",
   "description": "Sage Bionetworks fork of Autodesk/react-base-table",
   "main": "lib/index.js",
   "module": "es/index.js",
